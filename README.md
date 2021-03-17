@@ -2,6 +2,6 @@
 
 CHANGE THE MAIN.PY FILE TO WHERE THE ACME-HappinessSurvey2020.CSV FILE IS LOCATED OTHERWISE PROGRAM WILL THROW AN ERROR
 
-IF THIS LINE: ( from sklearn.model_selection import train_test_split ) GIVES AN ERROR WRITE cross_validation INSTEAD OF model_selection.
+IF THIS LINE: ( from sklearn.model_selection import train_test_split ) REPLACE WITH ( from sklearn.cross_validation import train_test_split )
 
 READ THE REPORT.PDF IN ORDER TO UNDERSTAND CERTAIN LOGIC WHILE CODING AND THE RESULTS OBTAINED
